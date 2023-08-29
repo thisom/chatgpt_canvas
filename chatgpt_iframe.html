@@ -57,7 +57,7 @@
     });
 
     async function fetchChatGPTResponse(input) {
-      const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
+      const apiUrl = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
       
       const response = await fetch(apiUrl, {
         method: 'POST',
